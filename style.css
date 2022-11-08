@@ -43,6 +43,7 @@
 .section_div{
   margin: auto;
   width: 90%;
+  padding-top: 20px;
 }
 
 .about_me_text{
@@ -71,3 +72,17 @@
   color: white;
   padding: 5px 50px;
 }
+
+.Softwares_box{
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+}
+
+#prj1{
+  background-color: blue;
+}
+
+/*grid and flex-box */
