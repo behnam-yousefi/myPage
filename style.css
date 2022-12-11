@@ -6,46 +6,52 @@
   background-color: AliceBlue;
 }
 
-header {
-  position: fixed;
-  width: 90%;
+.header_div {
+  /*position: fixed;*/
+  width: 95%;
   top: 0;
-  margin: auto;
-}
-
-.header_div{
-  margin: auto;
-  width: 100%;
-  height: 70px;
+  margin-bottom: 100;
   background-color: black;
 }
 
-.header_div > h1 {
+.header_nav{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  margin: 0;
+  width: 100%;
+  height: 70px;
+}
+
+.header_title{
   color: white;
-  display: inline-block;
   padding: 0px 100px;
+  margin-right: auto;
 }
 
-.nav{
-  position: relative;
-  float: right;
-  display: inline-block;
+.nav_bar{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  list-style: none;
+  background: black;
+  margin = 0;
 }
 
-.nav > li {               /* style li inside nav */
-  display: inline-block;
-  padding: 10px 20px;
+.nav_bar > li {               /* style li inside nav */
+  padding: 20px 20px;
 }
 
-.nav > li:hover {               /* style li inside nav */
-  display: inline-block;
-  padding: 10px 20px;
+.nav_bar > li:hover {               /* style li inside nav */
+  padding: 20px 20px;
   background-color: grey;
 }
 
-.nav > li > a {            /* style li elements having link */
+.nav_bar > li > a {            /* style li elements having link */
   color: white;
-  text-decoration: none;   /* To remove underline */
+  text-decoration: none;       /* To remove underline */
 }
 
 .body_div{
@@ -59,19 +65,13 @@ header {
   padding-top: 20px;
 }
 
-.about_me_text{
+.Intro_text{
   position: relative;
   align: left;
   display: inline-block;
   width: 70%;
   height: 200px;
   padding: 20px 20px 20px 20px;
-}
-
-.about_me_pic{
-  position: relative;
-  float: right;
-  display: inline-block;
 }
 
 .section_header{
@@ -90,13 +90,12 @@ header {
   background-color: grey;
   width: 150px;
   height: 150px;
-  display: inline-block;
-  position: relative;
   margin: 10px;
   padding: 2px;
+  text-align: center;
 }
 
-.section2_div {
+.Softwares_flexbox {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -106,5 +105,32 @@ header {
   list-style: none;
 }
 
+.Intro_flexbox {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
 
 /*grid and flex-box */

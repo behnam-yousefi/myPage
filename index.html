@@ -17,13 +17,15 @@
       <header>                                                  <!-- header -->
          <nav>
            <div class="header_div">
-             <h1>Computational Biomedicine</h1>
-             <ul class="nav">
-               <li><a href="#section_Softwares">Softwares</a></li>
-               <li><a href="#section_Projects">Projects</a></li>
-               <li><a href="#section_CV">CV</a></li>
-               <li><a href="#section_Contact">Contact</a></li>
-             </ul>
+             <ul class="header_nav">
+               <li><h1 class="header_title">Computational Biomedicine</h1></li>
+               <ul class="nav_bar">
+                 <li><a href="#section_Softwares">Softwares</a></li>
+                 <li><a href="#section_Projects">Projects</a></li>
+                 <li><a href="#section_CV">CV</a></li>
+                 <li><a href="#section_Contact">Contact</a></li>
+               </ul>
+              </ul>
            </div>
          </nav>
       </header>
@@ -35,16 +37,18 @@
               <br/><br/>
               <h2>Behnam Yousefi</h2>
               <br/>
-              <div class="about_me_text">
-                <h3>About Me</h3>
-                <p>I am a PhD candidate at the
-                  Institut Pasteur and the Sorbonne University. My research
-                  revolves around network medicine in the context of
-                  personalised medicine.</p>
-              </div>
-              <div class="about_me_pic">
-                <img class="my_image" src="images/Behnam.jpg", height="220px">
-              </div>
+              <div class="Intro_flexbox">
+                <div class="Intro_text">
+                  <h3>About Me</h3>
+                  <p>I am a PhD candidate at the
+                    Institut Pasteur and the Sorbonne University. My research
+                    revolves around network medicine in the context of
+                    personalised medicine.</p>
+                </div>
+                <div class="Intro_pic">
+                  <img class="my_image" src="images/Behnam.jpg", height="220px">
+                </div>
+            </div>
               <br/>
             </div>
           </section>
@@ -52,16 +56,19 @@
             <div class="section_header">
               <h3>Softwares</h3>
             </div>
-            <div class="section2_div">
-              <div id="prj1" class="Softwares_box">
-                <img class="my_image" src="images/MNDA_logo.png", width="100%">
-              </div>
-              <div id="prj2" class="Softwares_box">
+            <div class="section_div">
+              <div class="Softwares_flexbox">
+                <div id="prj1" class="Softwares_box">
+                  <img class="my_image" src="images/MNDA_logo.png", width="100%">
+                  <a href="images/MNDA_logo.png">MNDA</a>
+                </div>
+                <div id="prj2" class="Softwares_box">
 
-              </div>
-              <div id="prj3" class="Softwares_box">
+                </div>
+                <div id="prj3" class="Softwares_box">
 
-              </div>
+                </div>
+            </div>
             </div>
           </section>
           <section id="section_Projects">                                       <!-- Section 3: Projects -->
@@ -69,6 +76,11 @@
               <h3>Projects</h3>
             </div>
             <div class="section_div">
+              <ul>
+                <li>Microbiome dynamics</li>
+                <li>HotZone</li>
+                <li>SLEmap</li>
+              </ul>
             </div>
           </section>
           <section id="section_CV">                                       <!-- Section 4: CV -->
@@ -76,6 +88,33 @@
               <h3>CV</h3>
             </div>
             <div class="section_div">
+              <h4>Education</h4>
+              <ul>
+                <li><b>PhD in Computational Biology</b>
+                  <p>Institut Pasteur, Paris, France; Sorbonne Universite, Paris, France.
+                    Under the supervision of prof. Benno Schwikowski (2020-2023).</p>
+                  <ul>
+                    <ul>Secondments:</ul>
+                    <ul> - KU Leuven, Leuven, Belgium with prof. Kristel van Steen (4 months);</ul>
+                    <ul> - InSilicoTrials company, Trieste, Italy (3 months).</ul>
+                    <br/>
+                  </ul>
+                </li>
+                <li><b>Master in Biomedical Engineering, Bioelectric</b>
+                  <p>Iran University of Science and Technology, Tehran, Iran (2015-2019, <i>Top Student</i>).</p>
+                </li>
+                <li><b>Bachelor in Electrical Engineering, Electronics</b>
+                  <p>Azad University, Abhar, Zanjan, Iran (2009-2014, <i>Top Student</i>)</p>
+                </li>
+              </ul>
+              <h4>Professional Experience</h4>
+              <ul>
+                <li>Machine learning and deep learning</li>
+                <li>Network medicine</li>
+                <li>Personalized medicine and bioinformatics</li>
+                <li>Systems and signals modelling</li>
+              </ul>
+              <p>Detailed CV is accessible <a href="files/Yousefi-CV.pdf">here</a></p>
             </div>
           </section>
           <section id="section_Contact">                   <!-- Section 5: Contact -->
@@ -83,6 +122,22 @@
               <h3>Contact</h3>
             </div>
             <div class="section_div">
+              <h4>Email</h4>
+              <ul>
+                <li>behnam.yousefi@pasteur.fr</li>
+                <li>yousefi.bme@gmail.com</li>
+                <li>behnam.yousefi@etu.sorbonne-universite.fr</li>
+                <li>behnam.behnam@etu.sorbonne-universite.fr</li>
+              </ul>
+              <h4>Social network</h4>
+              <!-- Add icon library -->
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+              <a href="https://www.linkedin.com/in/behnam-yousefi-bme" class="fa fa-linkedin"></a>
+              <a href="https://twitter.com/behnam_bme" class="fa fa-twitter"></a>
+              <a href="#" class="fab fa-researchgate"></a>
+              <a href="#" class="fab fa-orcid"></a>
+              <br/>
+              <br/>
             </div>
           </section>
        </div>
